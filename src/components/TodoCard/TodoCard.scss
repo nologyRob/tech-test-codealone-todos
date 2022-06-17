@@ -1,0 +1,38 @@
+.todo-card{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 2px solid grey;
+  border-radius: 30px;
+  padding: 5px;
+  margin: 5px 0px;
+
+  
+
+  &__inputs{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 30%;
+
+  }
+
+  &__image{
+    height: 20px;
+  }
+
+  &__button {
+    background-color: transparent;
+    border: none;
+    margin-right: 5px;
+
+    &:hover{
+      cursor: pointer;
+    }
+  }
+}
+
+.lined {
+  text-decoration: line-through;
+}

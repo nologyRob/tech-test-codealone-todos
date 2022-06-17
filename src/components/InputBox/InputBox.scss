@@ -1,0 +1,39 @@
+.form {
+  width: 95vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between ;
+  align-items: center;
+  border: 3px solid grey;
+  border-radius: 20px;
+  margin: 0px 0px;
+  margin-bottom: 10px;
+  &:active {
+    border: 2px solid blue;
+  }
+ 
+
+  &__input {
+    width: 80%;
+    height: 45px;
+    padding: 0px 15px;
+    border: none;
+    font-size: 30px;
+    border-radius: 20px;
+
+    &:focus{
+      outline: none;
+    }
+  }
+  &__button {
+    width: 20%;
+    height: 45px;
+    background-color: transparent;
+    border: none;
+  }
+
+  &__image{
+    height: 30px;
+    width: 30px;
+  }
+}
